@@ -65,7 +65,6 @@ const App = () => {
           style={{ fontFamily: '"Lato", sans-serif' }}
         >
           <div className="flex flex-col items-center justify-center gap-4 py-8 px-4 w-full">
-            {/* Code block starts */}
             <div className="flex flex-col w-fit mx-auto">
               <label
                 htmlFor="summary"
@@ -82,8 +81,6 @@ const App = () => {
                 }}
               />
             </div>
-            {/* Code block ends */}
-            {/* Code block starts */}
             <div className="flex flex-col w-fit mx-auto">
               <label
                 htmlFor="description"
@@ -100,40 +97,31 @@ const App = () => {
                 }}
               />
             </div>
-            {/* Code block ends */}
             <div className="px-6 flex flex-wrap">
-              {/* Code block for gray alternative button starts */}
               <button
                 className="mx-2 my-2 bg-[#ffd670] transition duration-150 ease-in-out focus:outline-none hover:bg-[#e9ff70] rounded text-gray-800 hover:scale-110 font-semibold px-6 py-2 text-xs"
                 onClick={saveBtnFunc}
               >
                 Save
               </button>
-              {/* Code block for gray alternative button ends */}
-              {/* Code block for gray alternative button starts */}
               <button
                 className="mx-2 my-2 bg-[#ffd670] transition duration-150 ease-in-out focus:outline-none hover:bg-[#e9ff70] rounded text-gray-800 hover:scale-110 font-semibold px-6 py-2 text-xs"
                 onClick={deleteBtnFunc}
               >
                 Delete
               </button>
-              {/* Code block for gray alternative button ends */}
-              {/* Code block for gray alternative button starts */}
               <button
                 className="mx-2 my-2 bg-[#ffd670] transition duration-150 ease-in-out focus:outline-none hover:bg-[#e9ff70] rounded text-gray-800 hover:scale-110 font-semibold px-6 py-2 text-xs"
                 onClick={readBtnFunc}
               >
                 Read
               </button>
-              {/* Code block for gray alternative button ends */}
-              {/* Code block for gray alternative button starts */}
               <button
                 className="mx-2 my-2 bg-[#ffd670] transition duration-150 ease-in-out focus:outline-none hover:bg-[#e9ff70] rounded text-gray-800 hover:scale-110 font-semibold px-6 py-2 text-xs"
                 onClick={updateBtnFunc}
               >
                 Update
               </button>
-              {/* Code block for gray alternative button ends */}
             </div>
           </div>
         </div>
