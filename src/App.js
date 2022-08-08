@@ -58,10 +58,10 @@ const App = () => {
   }, []);
 
   return (
-    <section className="h-screen w-full bg-slate-300">
+    <section className="h-screen w-full bg-[#caf0f8]">
       <main className="h-full w-full flex items-center justify-center">
         <div
-          className="bg-gray-200 dark:bg-gray-900 flex items-center justify-center w-full"
+          className="bg-[#90e0ef] dark:bg-gray-900 flex items-center justify-center w-full"
           style={{ fontFamily: '"Lato", sans-serif' }}
         >
           <div className="flex flex-col items-center justify-center gap-4 py-8 px-4 w-full">
@@ -104,7 +104,7 @@ const App = () => {
             <div className="px-6 flex flex-wrap">
               {/* Code block for gray alternative button starts */}
               <button
-                className="mx-2 my-2 bg-gray-400 transition duration-150 ease-in-out focus:outline-none hover:bg-gray-500 rounded text-gray-800 hover:text-gray-200 font-semibold px-6 py-2 text-xs"
+                className="mx-2 my-2 bg-[#ffd670] transition duration-150 ease-in-out focus:outline-none hover:bg-[#e9ff70] rounded text-gray-800 hover:scale-110 font-semibold px-6 py-2 text-xs"
                 onClick={saveBtnFunc}
               >
                 Save
@@ -112,7 +112,7 @@ const App = () => {
               {/* Code block for gray alternative button ends */}
               {/* Code block for gray alternative button starts */}
               <button
-                className="mx-2 my-2 bg-gray-400 transition duration-150 ease-in-out focus:outline-none hover:bg-gray-500 rounded text-gray-800 hover:text-gray-200 font-semibold px-6 py-2 text-xs"
+                className="mx-2 my-2 bg-[#ffd670] transition duration-150 ease-in-out focus:outline-none hover:bg-[#e9ff70] rounded text-gray-800 hover:scale-110 font-semibold px-6 py-2 text-xs"
                 onClick={deleteBtnFunc}
               >
                 Delete
@@ -120,7 +120,7 @@ const App = () => {
               {/* Code block for gray alternative button ends */}
               {/* Code block for gray alternative button starts */}
               <button
-                className="mx-2 my-2 bg-gray-400 transition duration-150 ease-in-out focus:outline-none hover:bg-gray-500 rounded text-gray-800 hover:text-gray-200 font-semibold px-6 py-2 text-xs"
+                className="mx-2 my-2 bg-[#ffd670] transition duration-150 ease-in-out focus:outline-none hover:bg-[#e9ff70] rounded text-gray-800 hover:scale-110 font-semibold px-6 py-2 text-xs"
                 onClick={readBtnFunc}
               >
                 Read
@@ -128,7 +128,7 @@ const App = () => {
               {/* Code block for gray alternative button ends */}
               {/* Code block for gray alternative button starts */}
               <button
-                className="mx-2 my-2 bg-gray-400 transition duration-150 ease-in-out focus:outline-none hover:bg-gray-500 rounded text-gray-800 hover:text-gray-200 font-semibold px-6 py-2 text-xs"
+                className="mx-2 my-2 bg-[#ffd670] transition duration-150 ease-in-out focus:outline-none hover:bg-[#e9ff70] rounded text-gray-800 hover:scale-110 font-semibold px-6 py-2 text-xs"
                 onClick={updateBtnFunc}
               >
                 Update
